@@ -1,0 +1,19 @@
+apply from: 'dependencies.gradle'
+apply from: 'ide-support.gradle'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven { url 'http://dl.bintray.com/robfletcher/gradle-plugins' }
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.0.M1")
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}

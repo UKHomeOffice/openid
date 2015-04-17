@@ -1,0 +1,32 @@
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}
+
+ext {
+    oxm          = "org.springframework:spring-oxm:3.0.4.RELEASE"
+    hsql         = 'org.hsqldb:hsqldb:2.3.2'
+    mysqlInMem   = 'mysql:mysql-connector-mxj:5.0.12'
+
+    guava        = 'com.google.guava:guava:18.0'
+    mysql        = 'mysql:mysql-connector-java:5.1.32'
+    swagger      = 'com.mangofactory:swagger-springmvc:0.9.1'
+    opslogger    = 'com.equalexperts:opslogger:0.1.0-rc1'
+
+    junit        = "junit:junit:4.11"
+    mockito      = "org.mockito:mockito-core:1.9.5"
+    makeItEasy   = 'com.natpryce:make-it-easy:3.1.0'
+    apacheCommons= 'org.apache.commons:commons-lang3:3.0'
+    xmlunit      ='xmlunit:xmlunit:1.5'
+    jsonValidator= "com.github.fge:json-schema-validator:2.2.6"
+    logDocs      = "com.equalexperts:opslogger-support:0.1.0-rc1"
+    httpclient   = "org.apache.httpcomponents:httpclient:4.4"
+    httpcore     = "org.apache.httpcomponents:httpcore:4.4"
+    apache       = "commons-logging:commons-logging:1.2"
+    stubserver   = "com.pyruby:java-stub-server:0.14"
+    jsch         = "com.jcraft:jsch:0.1.51"
+
+    jackson      = ['com.fasterxml.jackson.core:jackson-core:2.4.2', 'com.fasterxml.jackson.core:jackson-databind:2.4.2']
+}
